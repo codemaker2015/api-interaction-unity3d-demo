@@ -11,7 +11,7 @@ Example project for calling apis using WWW and UnityWebRequest classes.
         StartCoroutine(GetBooksUsingWWW(url));
         StartCoroutine(GetBooksUsingUnityWebRequest(url));
     }
-    
+
     IEnumerator GetBooksUsingWWW(string url) {
         using (WWW www = new WWW(url)){
             yield return www;
@@ -45,4 +45,4 @@ Example project for calling apis using WWW and UnityWebRequest classes.
 ## Requirements
 
 * Unity 2019.4.17f1
-* SimpleJSON 
+* [SimpleJSON](SimpleJSON.unitypackage) 
