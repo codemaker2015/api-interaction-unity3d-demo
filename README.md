@@ -2,11 +2,6 @@
 
 Example project for calling apis using WWW and UnityWebRequest classes.
 
-## Custom API Creation
-For custom api creation and hosting refer the following post
-
-https://medium.com/nerd-for-tech/rest-api-integration-in-android-studio-using-retrofit-2-7ee66b54cd04
-
 ## Code
 
 ```cs
